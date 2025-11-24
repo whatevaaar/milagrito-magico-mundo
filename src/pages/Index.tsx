@@ -145,7 +145,7 @@ const Index = () => {
 
             {/* Bubble Navigation Menu - Circular Layout Around Central Duck */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-30">
-              <div className="relative w-[100vmin] h-[100vmin] max-w-[850px] max-h-[850px] pointer-events-auto scale-75 sm:scale-90 md:scale-100">
+              <div className="relative w-[100vmin] h-[100vmin] max-w-[850px] max-h-[850px] pointer-events-auto scale-[0.55] sm:scale-75 md:scale-90 lg:scale-100">
                 
                 {/* Top Left - Fotos (con palomita) */}
                 <div className="absolute top-[28%] left-[6%] transform -translate-x-1/2 -translate-y-1/2 animate-bounce" style={{ animationDelay: '0s' }}>
@@ -460,19 +460,21 @@ const Index = () => {
                 <div className="absolute inset-0 bg-gradient-to-b from-yellow-400/10 to-green-400/10" />
                 
                 <div className="relative space-y-4 sm:space-y-6">
-                  {/* Título del progreso ARRIBA */}
-                  <h3 className="text-sm sm:text-base md:text-xl lg:text-2xl xl:text-3xl font-bold text-center mb-1 sm:mb-2 flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2">
-                    <span className="text-lg sm:text-xl md:text-2xl">🏠</span>
-                    <span className="text-yellow-300 [text-shadow:_2px_2px_0_#1e3a8a,_-2px_-2px_0_#1e3a8a,_2px_-2px_0_#1e3a8a,_-2px_2px_0_#1e3a8a,_1px_1px_0_#1e3a8a,_-1px_-1px_0_#1e3a8a,_1px_-1px_0_#1e3a8a,_-1px_1px_0_#1e3a8a] px-2">
+                   {/* Título del progreso ARRIBA */}
+                  <h3 className="text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl font-bold text-center mb-1 sm:mb-2 flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 px-2">
+                    <span className="text-base sm:text-lg md:text-xl">🏠</span>
+                    <span className="text-yellow-300 [text-shadow:_2px_2px_0_#1e3a8a,_-2px_-2px_0_#1e3a8a,_2px_-2px_0_#1e3a8a,_-2px_2px_0_#1e3a8a,_1px_1px_0_#1e3a8a,_-1px_-1px_0_#1e3a8a,_1px_-1px_0_#1e3a8a,_-1px_1px_0_#1e3a8a] px-1 sm:px-2">
                       Camino hacia EL MUNDO DE PATITO MILAGRO
                     </span>
-                    <span className="text-lg sm:text-xl md:text-2xl">🏠</span>
+                    <span className="text-base sm:text-lg md:text-xl">🏠</span>
                   </h3>
                   
-                   {/* Área del camino con patito y albergue */}
-                   <div className="relative h-40 sm:h-48 md:h-56 lg:h-64 bg-yellow-100/50 dark:bg-yellow-900/20 rounded-xl sm:rounded-2xl border border-yellow-400/30 sm:border-2 overflow-x-auto overflow-y-hidden">
-                     {/* Línea del camino - pasa por la mitad de las esferas */}
-                     <div className="absolute top-[60%] left-4 right-4 h-1 bg-yellow-400/50 transform -translate-y-1/2" />
+                   {/* Área del camino con patito y albergue - scrollable horizontal en móvil */}
+                   <div className="relative h-48 sm:h-52 md:h-60 lg:h-64 bg-yellow-100/50 dark:bg-yellow-900/20 rounded-xl sm:rounded-2xl border border-yellow-400/30 sm:border-2 overflow-x-auto overflow-y-hidden">
+                     {/* Contenedor interno con ancho mínimo para permitir scroll */}
+                     <div className="relative h-full min-w-[800px] sm:min-w-[900px] md:min-w-full">
+                      {/* Línea del camino - pasa por la mitad de las esferas */}
+                      <div className="absolute top-[60%] left-4 right-4 h-1 bg-yellow-400/50 transform -translate-y-1/2" />
                      
                        {/* INICIO - Patito en punto de partida */}
                        <div className="absolute left-[2%] top-[56%] transform -translate-y-1/2">
@@ -837,10 +839,11 @@ const Index = () => {
                               alt="Victoria dorada" 
                               className="relative w-10 h-10 object-contain"
                             />
-                          </button>
-                        </div>
-                      </div>
-                  </div>
+                           </button>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
                   
                    {/* Contador de donativos */}
                   <div className="text-center">
