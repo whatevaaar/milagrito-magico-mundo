@@ -148,7 +148,7 @@ const Index = () => {
               <div className="relative w-[100vmin] h-[100vmin] max-w-[850px] max-h-[850px] pointer-events-auto scale-[0.65] sm:scale-75 md:scale-90 lg:scale-100">
                 
                 {/* Top Left - Fotos (con palomita) */}
-                <div className="absolute top-[24%] left-[2%] md:top-[28%] md:left-[6%] transform -translate-x-1/2 -translate-y-1/2 animate-bounce" style={{ animationDelay: '0s' }}>
+                <div className="absolute top-[20%] left-[-2%] md:top-[28%] md:left-[6%] transform -translate-x-1/2 -translate-y-1/2 animate-bounce" style={{ animationDelay: '0s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-accent/30">
                     <DuckMenuButton 
                       icon={Camera} 
@@ -159,7 +159,7 @@ const Index = () => {
                 </div>
 
                 {/* Top Center Left - Nosotros */}
-                <div className="absolute top-[6%] left-[12%] md:top-[8%] md:left-[16%] transform -translate-x-1/2 -translate-y-1/2 animate-float" style={{ animationDelay: '0.3s' }}>
+                <div className="absolute top-[3%] left-[8%] md:top-[8%] md:left-[16%] transform -translate-x-1/2 -translate-y-1/2 animate-float" style={{ animationDelay: '0.3s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-accent/30">
                     <DuckMenuButton 
                       icon={Sparkles} 
@@ -170,7 +170,7 @@ const Index = () => {
                 </div>
 
                 {/* Top Right - Obra (con palomita) */}
-                <div className="absolute top-[24%] right-[2%] md:top-[28%] md:right-[6%] transform translate-x-1/2 -translate-y-1/2 animate-bounce" style={{ animationDelay: '0.2s' }}>
+                <div className="absolute top-[20%] right-[-2%] md:top-[28%] md:right-[6%] transform translate-x-1/2 -translate-y-1/2 animate-bounce" style={{ animationDelay: '0.2s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-accent/30">
                     <DuckMenuButton 
                       icon={Theater} 
@@ -181,7 +181,7 @@ const Index = () => {
                 </div>
 
                 {/* Top Center Right - Valores */}
-                <div className="absolute top-[6%] right-[12%] md:top-[8%] md:right-[16%] transform translate-x-1/2 -translate-y-1/2 animate-float" style={{ animationDelay: '0.5s' }}>
+                <div className="absolute top-[3%] right-[8%] md:top-[8%] md:right-[16%] transform translate-x-1/2 -translate-y-1/2 animate-float" style={{ animationDelay: '0.5s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-primary/30">
                     <DuckMenuButton 
                       icon={Star} 
@@ -192,7 +192,7 @@ const Index = () => {
                 </div>
 
                 {/* Left - Contacto (con palomita) */}
-                <div className="absolute top-1/2 left-[-2%] md:left-0 transform -translate-x-1/2 -translate-y-1/2 animate-float" style={{ animationDelay: '0.4s' }}>
+                <div className="absolute top-1/2 left-[-6%] md:left-0 transform -translate-x-1/2 -translate-y-1/2 animate-float" style={{ animationDelay: '0.4s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-primary/30">
                     <DuckMenuButton 
                       icon={Mail} 
@@ -203,7 +203,7 @@ const Index = () => {
                 </div>
 
                 {/* Right - Funciones (con palomita) */}
-                <div className="absolute top-1/2 right-[-2%] md:right-0 transform translate-x-1/2 -translate-y-1/2 animate-float" style={{ animationDelay: '0.6s' }}>
+                <div className="absolute top-1/2 right-[-6%] md:right-0 transform translate-x-1/2 -translate-y-1/2 animate-float" style={{ animationDelay: '0.6s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-secondary/30">
                     <DuckMenuButton 
                       icon={Calendar} 
@@ -214,7 +214,7 @@ const Index = () => {
                 </div>
 
                 {/* Bottom Left - Misión */}
-                <div className="absolute bottom-[12%] left-[10%] md:bottom-[14.6%] md:left-[14.6%] transform -translate-x-1/2 translate-y-1/2 animate-bounce" style={{ animationDelay: '0.8s' }}>
+                <div className="absolute bottom-[8%] left-[6%] md:bottom-[14.6%] md:left-[14.6%] transform -translate-x-1/2 translate-y-1/2 animate-bounce" style={{ animationDelay: '0.8s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-secondary/30">
                     <DuckMenuButton 
                       icon={Target} 
@@ -225,7 +225,7 @@ const Index = () => {
                 </div>
 
                 {/* Bottom Right - Tienda (con palomita) */}
-                <div className="absolute bottom-[12%] right-[10%] md:bottom-[14.6%] md:right-[14.6%] transform translate-x-1/2 translate-y-1/2 animate-bounce" style={{ animationDelay: '1s' }}>
+                <div className="absolute bottom-[8%] right-[6%] md:bottom-[14.6%] md:right-[14.6%] transform translate-x-1/2 translate-y-1/2 animate-bounce" style={{ animationDelay: '1s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-primary/30">
                     <DuckMenuButton 
                       icon={ShoppingBag} 
@@ -236,7 +236,7 @@ const Index = () => {
                 </div>
 
                 {/* Bottom Center Right - Donaciones */}
-                <div className="absolute bottom-[3%] right-[24%] md:bottom-[5%] md:right-[28%] transform translate-x-1/2 translate-y-1/2 animate-float" style={{ animationDelay: '1.2s' }}>
+                <div className="absolute bottom-[0%] right-[20%] md:bottom-[5%] md:right-[28%] transform translate-x-1/2 translate-y-1/2 animate-float" style={{ animationDelay: '1.2s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-accent/30">
                     <DuckMenuButton 
                       icon={Heart} 
@@ -247,7 +247,7 @@ const Index = () => {
                 </div>
 
                 {/* Bottom Center Left - Sorpresas */}
-                <div className="absolute bottom-[3%] left-[24%] md:bottom-[5%] md:left-[28%] transform -translate-x-1/2 translate-y-1/2 animate-float" style={{ animationDelay: '1.4s' }}>
+                <div className="absolute bottom-[0%] left-[20%] md:bottom-[5%] md:left-[28%] transform -translate-x-1/2 translate-y-1/2 animate-float" style={{ animationDelay: '1.4s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-secondary/30">
                     <DuckMenuButton 
                       icon={Gamepad2} 
@@ -258,7 +258,7 @@ const Index = () => {
                 </div>
 
                 {/* Bottom Center Left - Videos */}
-                <div className="absolute bottom-[3%] left-[38%] md:bottom-[5%] md:left-[42%] transform -translate-x-1/2 translate-y-1/2 animate-float" style={{ animationDelay: '1.4s' }}>
+                <div className="absolute bottom-[0%] left-[34%] md:bottom-[5%] md:left-[42%] transform -translate-x-1/2 translate-y-1/2 animate-float" style={{ animationDelay: '1.4s' }}>
                   <div className="bg-yellow-100/90 rounded-full p-2 shadow-[0_8px_20px_-6px_hsl(199_89%_48%/0.5)] backdrop-blur-sm border-2 border-primary/30">
                     <DuckMenuButton 
                       icon={Video} 
