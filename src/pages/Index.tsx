@@ -107,26 +107,45 @@ const Index = () => {
             <div
                 className="absolute inset-0 bg-gradient-to-b from-accent/40 via-background/30 to-background/50 backdrop-blur-[2px]"/>
 
-            <div className="container mx-auto px-2 sm:px-4 py-6 sm:py-12 relative z-10">
+            <div className="container mx-auto px-2 sm:px-4 lg:py-6 sm:py-2 relative z-10">
                 <div className="relative flex items-center justify-center min-h-[90vh] pt-4">
 
                     {/* Title above the duck */}
                     <div className="absolute left-1/2 -translate-x-1/2 text-center z-40 w-full px-2
     top-2 sm:top-4 md:top-6 lg:top-8 xl:top-10">
 
-                        <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-titan text-yellow-400
-      drop-shadow-[0_0_30px_rgba(255,215,0,0.9)]
-      [text-shadow:_2px_2px_0_#000,_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000]
-      px-3 sm:px-6 py-1 sm:py-2 leading-tight">
+                        <h1
+                            className="
+    text-4xl            /* cel */
+    sm:text-3xl         /* tablet */
+    md:text-3xl         /* desktop chico */
+    lg:text-3xl         /* desktop grande */
+    xl:text-4xl         /* muy grande */
+    font-titan text-yellow-400
+    drop-shadow-[0_0_30px_rgba(255,215,0,0.9)]
+    [text-shadow:_2px_2px_0_#000,_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000]
+    px-3 sm:px-6 py-1 sm:py-2 leading-tight
+  "
+                        >
                             EL MUNDO DE PATITO
                         </h1>
 
-                        <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-titan text-yellow-400
-      drop-shadow-[0_0_30px_rgba(255,215,0,0.9)]
-      [text-shadow:_2px_2px_0_#000,_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000]
-      px-3 sm:px-6 py-0 leading-tight">
+                        <h2
+                            className="
+    text-3xl             /* cel */
+    sm:text-2xl         /* tablet */
+    md:text-2xl         /* desktop chico */
+    lg:text-3xl         /* desktop grande */
+    xl:text-3xl
+    font-titan text-yellow-400
+    drop-shadow-[0_0_30px_rgba(255,215,0,0.9)]
+    [text-shadow:_2px_2px_0_#000,_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000]
+    px-3 sm:px-6 py-0 leading-tight
+  "
+                        >
                             MILAGRO
                         </h2>
+
 
                     </div>
 
@@ -140,8 +159,8 @@ const Index = () => {
     justify-center
     w-full
     h-full
-    mt-[21rem]
-    mb-[15rem]
+    lg:mt-[21rem]       /* desktop grande */
+    lg:mb-[15rem]
   "
                     >
 
@@ -242,8 +261,8 @@ const Index = () => {
             {/* Decorative floating elements */}
             <div className="absolute top-20 left-10 w-20 h-20 bg-primary/20 rounded-full animate-float blur-xl"/>
             <div
-                className="absolute bottom-20 right-10 w-32 h-32 bg-secondary/20 rounded-full animate-bounce blur-xl"/>
-            <div className="absolute top-1/2 right-20 w-24 h-24 bg-accent/20 rounded-full animate-float blur-xl"
+                className="absolute bottom-20 right-0 w-32 h-32 bg-secondary/20 rounded-full animate-bounce blur-xl"/>
+            <div className="absolute top-1/2 right-0 w-24 h-24 bg-accent/20 rounded-full animate-float blur-xl"
                  style={{animationDelay: '1s'}}/>
         </section>
 
