@@ -145,7 +145,7 @@ const Index = () => {
 
             {/* Bubble Navigation Menu - Circular Layout Around Central Duck */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-30">
-              <div className="relative w-[100vmin] h-[100vmin] max-w-[850px] max-h-[850px] pointer-events-auto scale-[0.55] sm:scale-75 md:scale-90 lg:scale-100">
+              <div className="relative w-[100vmin] h-[100vmin] max-w-[850px] max-h-[850px] pointer-events-auto scale-[0.45] xs:scale-[0.5] sm:scale-[0.65] md:scale-[0.8] lg:scale-90 xl:scale-100">
                 
                 {/* Top Left - Fotos (con palomita) */}
                 <div className="absolute top-[28%] left-[6%] transform -translate-x-1/2 -translate-y-1/2 animate-bounce" style={{ animationDelay: '0s' }}>
@@ -470,9 +470,9 @@ const Index = () => {
                   </h3>
                   
                    {/* Área del camino con patito y albergue - scrollable horizontal en móvil */}
-                   <div className="relative h-48 sm:h-52 md:h-60 lg:h-64 bg-yellow-100/50 dark:bg-yellow-900/20 rounded-xl sm:rounded-2xl border border-yellow-400/30 sm:border-2 overflow-x-auto overflow-y-hidden">
+                   <div className="relative h-64 sm:h-72 md:h-80 lg:h-64 bg-yellow-100/50 dark:bg-yellow-900/20 rounded-xl sm:rounded-2xl border border-yellow-400/30 sm:border-2 overflow-x-auto overflow-y-hidden pb-4">
                      {/* Contenedor interno con ancho mínimo para permitir scroll */}
-                     <div className="relative h-full min-w-[800px] sm:min-w-[900px] md:min-w-full">
+                     <div className="relative h-full min-w-[900px] sm:min-w-[1000px] md:min-w-full">
                       {/* Línea del camino - pasa por la mitad de las esferas */}
                       <div className="absolute top-[60%] left-4 right-4 h-1 bg-yellow-400/50 transform -translate-y-1/2" />
                      
