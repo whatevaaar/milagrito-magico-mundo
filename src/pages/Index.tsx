@@ -116,11 +116,11 @@ const Index = () => {
 
                         <h1
                             className="
-    text-4xl            /* cel */
-    sm:text-3xl         /* tablet */
+    text-3xl            /* cel */
+    sm:text-2xl         /* tablet */
     md:text-3xl         /* desktop chico */
     lg:text-3xl         /* desktop grande */
-    xl:text-4xl         /* muy grande */
+    xl:text-3xl         /* muy grande */
     font-titan text-yellow-400
     drop-shadow-[0_0_30px_rgba(255,215,0,0.9)]
     [text-shadow:_2px_2px_0_#000,_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000]
